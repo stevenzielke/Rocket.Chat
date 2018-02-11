@@ -22,6 +22,10 @@ Meteor.methods({
 			RocketChat.settings.updateById('Livechat_webhook_on_offline_msg', !!values['Livechat_webhook_on_offline_msg']);
 		}
 
+		if (typeof values['Livechat_webhook_on_online_msg'] !== 'undefined') {
+			RocketChat.settings.updateById('Livechat_webhook_on_online_msg', !!values['Livechat_webhook_on_online_msg']);
+		}
+
 		return;
 	}
 });

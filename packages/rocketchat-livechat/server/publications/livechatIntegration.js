@@ -9,7 +9,7 @@ Meteor.publish('livechat:integration', function() {
 
 	const self = this;
 
-	const handle = RocketChat.models.Settings.findByIds(['Livechat_webhookUrl', 'Livechat_secret_token', 'Livechat_webhook_on_close', 'Livechat_webhook_on_offline_msg']).observeChanges({
+	const handle = RocketChat.models.Settings.findByIds(['Livechat_webhookUrl', 'Livechat_secret_token', 'Livechat_webhook_on_close', 'Livechat_webhook_on_offline_msg', 'Livechat_webhook_on_online_msg']).observeChanges({
 		added(id, fields) {
 			self.added('livechatIntegration', id, fields);
 		},

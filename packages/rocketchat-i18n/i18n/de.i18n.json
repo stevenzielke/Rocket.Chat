@@ -1592,6 +1592,7 @@
   "Send_invitation_email_success": "Sie haben eine Einladung an folgende E-Mail-Adressen versendet:",
   "Send_request_on_chat_close": "Nach dem Schließen des Chatraums einen Webhook anstoßen",
   "Send_request_on_offline_messages": "Webhook bei Offline-Nachrichten anstoßen",
+  "Send_request_on_online_messages": "Webhook bei Online Nachrichten anstoßen",
   "Send_Test": "Test senden",
   "Send_welcome_email": "Willkommens-E-Mail senden",
   "Send_your_JSON_payloads_to_this_URL": "Senden Sie Ihre JSON-Nutzlasten an diese URL",
